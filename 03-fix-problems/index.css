@@ -1,17 +1,23 @@
-.figure__caption {
-    /* font-family: serif; */
-    background: cornsilk;
-    text-align: center;
-}
-
 body {
+    background: cornsilk;
     font-family: sans-serif;
     text-align: left;
+    margin: 0;
 }
 
 * {
     margin-left: auto;
     margin-right: auto;
+}
+
+.article {
+    max-width: 680px;
+    padding: 24px;
+}
+
+.article__heading {
+    margin: 0 0 1.5rem 0;
+    color: palevioletred;
 }
 
 .article__lead {
@@ -21,37 +27,8 @@ body {
     font-family: serif;
 }
 
-.figure {
-    margin-top: 16px;
-}
-
-.article {
-    background: rgba(255, 0, 0, 0);
-}
-
 .figure__caption {
-    margin-bottom: 1rem;
-}
-
-.figure__image {
-    margin-bottom: 8px;
-    max-width: 100%;
-}
-
-.figure__image,
-.figure__caption {
+    text-align: center;
     margin: 8px 0 0;
     font-style: italic;
-    font-family: sans-serif;
-}
-
-.article {
-    max-width: 680px;
-    padding: 24px;
-    font-family: sans-serif;
-}
-
-.article__heading {
-    margin: 0 0 1.5rem 0;
-    color: palevioletred
 }
